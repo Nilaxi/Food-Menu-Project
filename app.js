@@ -85,9 +85,9 @@ let menu = [
   const carts = [];
   
   
-  display = (data) => {
+  display = (menu) => {
   
-    const displayHtml = data.map((v, index) => {
+    const displayHtml = menu.map((v, index) => {
   
       return (`<article class="menu-item">
         <img src="${v.img}"alt="menu item" class="photo" />
